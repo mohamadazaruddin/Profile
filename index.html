@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://getbootstrap.com/docs/5.2/assets/css/docs.css" rel="stylesheet">
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
+        integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous">
+        </script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    </script>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="https://kit.fontawesome.com/7f5049b87a.js" crossorigin="anonymous"></script>
+<link rel="stylesheet" href="./styles/index.css">
+</head>
+
+<body>
+    <main>
+
+        <div class="cover">
+            <div class="container px-3">
+                <div class="row">
+                    <div class="col-md-12 col-sm-12">
+                        <header class="my-5">
+                            <div class="d-flex justify-content-between align-items-center">
+                                <div class="back" data-aos="fade-right" data-aos-duration="1000">
+
+                                    <svg width="25" height="25" viewBox="0 0 30 30" onclick="liked()" fill="" id="liked"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <path
+                                            d="M15.15 25.4223L15 25.5858L14.835 25.4223C7.71 18.376 3 13.7166 3 8.99183C3 5.72207 5.25 3.26975 8.25 3.26975C10.56 3.26975 12.81 4.90463 13.605 7.12807H16.395C17.19 4.90463 19.44 3.26975 21.75 3.26975C24.75 3.26975 27 5.72207 27 8.99183C27 13.7166 22.29 18.376 15.15 25.4223ZM21.75 0C19.14 0 16.635 1.32425 15 3.40054C13.365 1.32425 10.86 0 8.25 0C3.63 0 0 3.94005 0 8.99183C0 15.1553 5.1 20.2071 12.825 27.842L15 30L17.175 27.842C24.9 20.2071 30 15.1553 30 8.99183C30 3.94005 26.37 0 21.75 0Z"
+                                            fill="white" />
+                                    </svg>
+
+
+                                    <svg width="25" height="25" viewBox="0 0 20 19" fill="none"
+                                        xmlns="http://www.w3.org/2000/svg" onclick="unliked()" id="unliked">
+                                        <path
+                                            d="M8.88659 16.6603L8.88587 16.6596C6.30104 14.3157 4.19578 12.4033 2.73088 10.6111C1.27148 8.82559 0.5 7.22062 0.5 5.5C0.5 2.68674 2.69555 0.5 5.5 0.5C7.08885 0.5 8.62206 1.24223 9.62058 2.40564L10 2.84771L10.3794 2.40564C11.3779 1.24223 12.9112 0.5 14.5 0.5C17.3045 0.5 19.5 2.68674 19.5 5.5C19.5 7.22062 18.7285 8.82559 17.2691 10.6111C15.8042 12.4033 13.699 14.3157 11.1141 16.6596L11.1134 16.6603L10 17.6738L8.88659 16.6603Z"
+                                            fill="#186DD1" stroke="black" />
+                                    </svg>
+
+
+
+
+
+                                </div>
+                                <div class="name text-center" data-aos="fade-up" data-aos-duration="1000">
+                                    <h1 class="p-0 m-0">@Azhar</h1>
+                                    <p class="p-0 m-0">UI/UX</p>
+                                    <p class="p-0 m-0">Designer & Developer</p>
+                                </div>
+                                <div class="menubar" data-aos="fade-left">
+                                    <button>
+                                        <svg width="25" height="25" viewBox="0 0 30 30" fill="none"
+                                            onclick="sharefunction()" xmlns="http://www.w3.org/2000/svg">
+                                            <path
+                                                d="M22.5 20.1C21.55 20.1 20.7 20.475 20.05 21.0625L11.1375 15.875C11.2 15.5875 11.25 15.3 11.25 15C11.25 14.7 11.2 14.4125 11.1375 14.125L19.95 8.9875C20.625 9.6125 21.5125 10 22.5 10C24.575 10 26.25 8.325 26.25 6.25C26.25 4.175 24.575 2.5 22.5 2.5C20.425 2.5 18.75 4.175 18.75 6.25C18.75 6.55 18.8 6.8375 18.8625 7.125L10.05 12.2625C9.375 11.6375 8.4875 11.25 7.5 11.25C5.425 11.25 3.75 12.925 3.75 15C3.75 17.075 5.425 18.75 7.5 18.75C8.4875 18.75 9.375 18.3625 10.05 17.7375L18.95 22.9375C18.8875 23.2 18.85 23.475 18.85 23.75C18.85 25.7625 20.4875 27.4 22.5 27.4C24.5125 27.4 26.15 25.7625 26.15 23.75C26.15 21.7375 24.5125 20.1 22.5 20.1Z"
+                                                fill="white" />
+                                        </svg>
+
+                                    </button>
+                                </div>
+                            </div>
+
+                        </header>
+                    </div>
+                </div>
+            </div>
+            <div class="dpbox" data-aos="zoom-in" data-aos-duration="1000"></div>
+            <div class="container mt-3">
+                <div class="row">
+                    <div class="col-3 d-flex justify-content-center" data-aos-duration="1000" data-aos="fade-up-right">
+                        <a href="https://github.com/mohamadazaruddin" class="socials" id="github">
+                            <i class="fa-brands fa-github"></i>
+                        </a>
+                    </div>
+                    <div class="col-3 d-flex justify-content-center" data-aos-duration="1000" data-aos="fade-down"><a
+                            href="mailto:azaruddin1307@example.com" class="socials" id="mail">
+                            <i class="fa-solid fa-envelope"></i></a>
+                    </div>
+                    <div class="col-3 d-flex justify-content-center" data-aos-duration="1000" data-aos="fade-up"><a
+                            href="https://www.instagram.com/azharrr.ig/" class="socials" id="ig">
+                            <i class="fa-brands fa-instagram"></i> </a>
+                    </div>
+                    <div class="col-3 d-flex justify-content-center" data-aos-duration="1000" data-aos="fade-up-left">
+                        <a href="https://wa.me/9702914246" class="socials" id="whatsapp"><i
+                                class="fa-brands fa-whatsapp"></i></a>
+                    </div>
+                </div>
+
+            </div>
+            <div class="container mydetail mt-5" data-aos-duration="1000" data-aos="fade-up">
+                <a href="https://www.figma.com/file/A8ZKmOpL3oR7VjI9HJWMRv/Learnig?node-id=0%3A1">
+                    <div class="outlets d-flex align-items-center  justify-content-between">
+                        <div class="d-flex">
+                            <div class="outletimgs" style=" background-image: url('./images/figmalogo.jpeg');"></div>
+                            Figma
+                        </div>
+                        <div> <i class="fa-solid fa-arrow-right"></i> </div>
+                    </div>
+                </a>
+                <a href="https://mohamadazaruddin.github.io/UNIKA-WEBSITE/">
+                    <div class="outlets d-flex align-items-center justify-content-between">
+                        <div class="d-flex">
+                            <div class="outletimgs" style=" background-image: url('./images/html.jpg');"></div>
+                            Html,Css,Javascript
+                        </div>
+                        <div><i class="fa-solid fa-arrow-right"></i> </div>
+                    </div>
+                </a>
+                <a href="#">
+                    <div class="outlets d-flex align-items-center  justify-content-between">
+                        <div class="d-flex">
+                            <div class="outletimgs" style=" background-image: url('./images/reactjs.jpeg');"></div>
+                            React
+                            js
+                        </div>
+                        <div> <i class="fa-solid fa-arrow-right"></i> </div>
+                    </div>
+                </a>
+                <a href="https://pizza-app-alpha.vercel.app/">
+                    <div class="outlets d-flex align-items-center  justify-content-between">
+                        <div class="d-flex">
+                            <div class="outletimgs" style=" background-image: url('./images/nextjs.png');"></div> Next
+                            js
+                        </div>
+                        <div> <i class="fa-solid fa-arrow-right"></i> </div>
+                    </div>
+                </a>
+            </div>
+        </div>
+        <div id="toastbutton">
+            link Copied
+        </div>
+
+    </main>
+    <script>
+        var unlike = document.getElementById("unliked");
+        var like = document.getElementById("liked");
+
+        function liked() {
+            document.getElementById("unliked").style.display = "block"
+            document.getElementById("liked").style.display = "none"
+            console.log("clicked");
+
+
+
+        }
+
+        function unliked() {
+            document.getElementById("unliked").style.display = "none"
+            console.log("unclicked");
+            document.getElementById("liked").style.display = "block"
+        }
+
+        function sharefunction() {
+
+            const siteurl = window.location.href
+            navigator.clipboard.writeText(siteurl);
+            if (navigator.clipboard.writeText) {
+
+                document.getElementById("toastbutton").style.opacity = "1"
+                setTimeout(() => {
+                    document.getElementById("toastbutton").style.opacity = "0"
+                }, 2000);
+            }
+
+            toast.show()
+            // if (navigator.share) {
+            //     navigator.share({
+            //             title: 'My awesome post!',
+            //             text: 'my shared image',
+            //             url: siteurl
+            //         }).then(() => {
+            //             console.log('Thanks for sharing!');
+            //         })
+            //         .catch(err => {
+            //             console.log(`Couldn't share because of`, err.message);
+            //         });
+            // } else {
+            //     console.log('web share not supported');
+            // }
+        }
+        AOS.init();
+    </script>
+</body>
+
+
+</html>

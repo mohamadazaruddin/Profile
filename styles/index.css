@@ -1,0 +1,178 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+    color: transparent;
+}
+
+main {
+    width: 100%;
+    height: 100vh;
+    overflow-y: auto;
+    background-image: url("../images/bg.jpg");
+    background-size: 100% 100%;
+    background-position: center;
+
+}
+
+.cover {
+    position: relative;
+    background: rgba(0, 0, 0, 0.116);
+    backdrop-filter: blur(6px);
+    -webkit-backdrop-filter: blur(6px);
+    height: 100%;
+    padding-bottom: 40px;
+    width: 100%;
+    overflow-y: auto;
+}
+
+.dpbox {
+    width: 150px;
+    height: 150px;
+    overflow: auto;
+    background-image: url("../images/bg.jpg");
+    background-size: 100% 100%;
+    background-position: center;
+    border-radius: 50%;
+    border: 3px solid rgba(128, 128, 128, 0.425);
+    margin: auto;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+}
+
+header button {
+    background-color: transparent;
+    border: none;
+}
+
+.name h1 {
+    color: #fff;
+}
+
+.name p {
+    color: rgb(201, 194, 194);
+}
+
+.connects {
+
+    background-color: #fff;
+}
+
+.socials {
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    margin: 15px 0px;
+    width: 50px;
+    border-radius: 8px;
+}
+
+.socials i {
+    font-size: 35px;
+}
+
+#github {
+    background: rgb(202, 194, 246);
+    background: linear-gradient(90deg, rgba(202, 194, 246, 1) 0%, rgba(166, 205, 246, 1) 35%, rgba(211, 157, 236, 1) 100%);
+    color: #000;
+}
+
+#mail {
+    background: rgb(106, 108, 241);
+    background: linear-gradient(90deg, rgba(106, 108, 241, 1) 17%, rgba(100, 175, 235, 1) 66%);
+    color: rgb(0, 0, 0);
+}
+
+#ig {
+    background: #d6249f;
+    background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
+    color: rgb(255, 255, 255);
+}
+
+#whatsapp {
+    background: rgb(2, 131, 95);
+    background: linear-gradient(90deg, rgba(2, 131, 95, 1) 0%, rgba(26, 167, 92, 1) 35%, rgba(0, 255,
+                196, 1) 100%);
+    color: rgb(255, 255, 255);
+
+}
+
+.down {
+    background: rgba(0, 0, 0, 0);
+    backdrop-filter: blur(16px);
+    -webkit-backdrop-filter: blur(16px);
+}
+
+.bottomlinks i {
+    color: #fff;
+    font-size: 25px;
+}
+
+.mydetail button {
+    background-color: #000;
+    border: none;
+    border-radius: 25px;
+    width: 100%;
+    margin: 15px 0px;
+    padding: 10px 10px;
+}
+
+.mydetail .card-body {
+    background-color: #000;
+    color: #fff;
+}
+
+.outlets {
+    background-color: #d0c7c76b;
+    width: 100%;
+    margin: auto;
+    padding: 10px;
+    box-shadow: 0px 0px 8px hsla(0, 0%, 15%, 0.659);
+    border-radius: 25px;
+    transition: 0.2s linear;
+    margin-bottom: 20px;
+    color: rgb(255, 255, 255);
+
+}
+
+.outletimgs {
+    height: 30px;
+    border-radius: 50%;
+    margin-right: 10px;
+    width: 30px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.outlets:hover {
+    z-index: 100;
+    box-shadow: 0px 0px 8px rgb(94, 93, 93);
+}
+
+#liked {
+    display: block;
+}
+
+#unliked {
+    display: none;
+}
+
+#toastbutton {
+    background-color: #285AEB;
+    padding: 5px 15px;
+    border-radius: 6px;
+    color: #fff;
+    position: absolute;
+    top: 25px;
+    left: 50%;
+    font-size: 12px;
+    transform: translateX(-50%);
+    opacity: 0;
+    transition: 0.2s linear;
+}
