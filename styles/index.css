@@ -13,7 +13,8 @@ main {
     width: 100%;
     height: 100vh;
     overflow-y: auto;
-    background-image: url("../images/bg.jpg");
+    background-image: url("https://jswolfphotography.com/wp-content/uploads/2021/02/dual-tone-l.jpg");
+    /* background-image: url("../images/bg.jpg"); */
     background-size: 100% 100%;
     background-position: center;
 
@@ -34,7 +35,8 @@ main {
     width: 150px;
     height: 150px;
     overflow: auto;
-    background-image: url("../images/bg.jpg");
+    /* background-image: url("../images/bg.jpg"); */
+    background-image: url("https://jswolfphotography.com/wp-content/uploads/2021/02/dual-tone-l.jpg");
     background-size: 100% 100%;
     background-position: center;
     border-radius: 50%;
@@ -128,11 +130,13 @@ header button {
 }
 
 .outlets {
-    background-color: #d0c7c76b;
+    background: rgb(0 0 0 / 66%);
+    backdrop-filter: blur(20px);
+    -webkit-backdrop-filter: blur(20px);
     width: 100%;
     margin: auto;
-    padding: 10px;
-    box-shadow: 0px 0px 8px hsla(0, 0%, 15%, 0.659);
+    padding: 10px 25px 10px 15px;
+    box-shadow: 0px 0px 8px hsl(0deg 4% 56% / 31%);
     border-radius: 25px;
     transition: 0.2s linear;
     margin-bottom: 20px;
@@ -175,4 +179,46 @@ header button {
     transform: translateX(-50%);
     opacity: 0;
     transition: 0.2s linear;
+}
+
+
+.defination {
+    display: none;
+}
+
+.skills {
+    color: #b4b4b4;
+    font-size: 12px;
+}
+
+.d-md-block h3 {
+    font-size: 16px;
+    margin: 0px;
+    line-height: normal;
+}
+
+@media (min-width: 768px) {
+
+    .outlets {
+        padding: 21px 15px 10px 15px;
+    }
+
+    .d-md-block h3 {
+        text-align: center;
+        font-size: 22px;
+        margin: 18px 0px 5px 0px;
+    }
+
+    .outletimgs {
+        width: 60px;
+        height: 60px;
+        margin-top: 25px;
+    }
+
+    .defination {
+        font-size: 12px;
+        color: #b4b4b4;
+        text-align: center;
+        display: block;
+    }
 }
