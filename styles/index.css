@@ -241,6 +241,7 @@ q {
     font-weight: 600;
 }
 
+
 @media (min-width: 768px) {
 
     .mydescription {
@@ -293,4 +294,10 @@ q {
         margin-top: 40px;
     }
 
+    .desk-profile {
+        display: grid;
+        place-content: center;
+        height: 100%;
+        width: 100%;
+    }
 }
