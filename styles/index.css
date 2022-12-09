@@ -4,6 +4,10 @@
     box-sizing: border-box;
 }
 
+.body {
+    scroll-behavior: smooth;
+}
+
 a {
     text-decoration: none;
     color: transparent;
@@ -22,13 +26,22 @@ main {
 
 .cover {
     position: relative;
-    background: rgba(0, 0, 0, 0.116);
+    background: #00000075;
     backdrop-filter: blur(6px);
     -webkit-backdrop-filter: blur(6px);
     height: 100%;
     padding-bottom: 40px;
     width: 100%;
     overflow-y: auto;
+}
+
+
+.desk-header {
+    margin-top: 25px;
+}
+
+.desk-header h1 {
+    font-size: 24px;
 }
 
 .dpbox {
@@ -168,7 +181,9 @@ header button {
 }
 
 #toastbutton {
-    background-color: #285AEB;
+    background: rgb(0 0 0 / 36%);
+    backdrop-filter: blur(20px);
+    -webkit-backdrop-filter: blur(20px);
     padding: 5px 15px;
     border-radius: 6px;
     color: #fff;
@@ -195,9 +210,51 @@ header button {
     font-size: 16px;
     margin: 0px;
     line-height: normal;
+
+}
+
+.skillsrow {
+    border-top: 2px solid #80808040;
+    padding-top: 15px;
+}
+
+.deskrow {
+    margin-top: 25px;
+}
+
+.mydescription {
+    display: none;
+    color: #ffffff;
+}
+
+.legends {
+    display: inline-block;
+    border-bottom: 1px solid;
+    margin: 0;
+    color: #834ae6;
+    font-weight: 800;
+
+}
+
+q {
+    font-size: 18px;
+    font-weight: 600;
 }
 
 @media (min-width: 768px) {
+
+    .mydescription {
+        display: block;
+    }
+
+    .socials i {
+        font-size: 25px;
+    }
+
+    .socials {
+        width: 35px;
+        height: 35px;
+    }
 
     .outlets {
         padding: 21px 15px 10px 15px;
@@ -221,4 +278,19 @@ header button {
         text-align: center;
         display: block;
     }
+
+    header {
+        display: none;
+    }
+
+    .skillsrow {
+        border-top: 2px solid #80808040;
+        padding-top: 30px !important;
+    }
+
+
+    .deskrow {
+        margin-top: 40px;
+    }
+
 }
