@@ -1,0 +1,77 @@
+* {
+    margin: 0 auto;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #e6e8ec;
+    padding: 40px 0px;
+}
+
+.blocks {
+    background-color: #ffffff;
+    border-radius: 8px;
+}
+
+.banner {
+    height: 200px;
+    background-image: url('/images/circles.png');
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+}
+
+.quote {
+    position: absolute;
+    top: 50%;
+    right: 30px;
+    max-width: 60%;
+    transform: translateY(-50%);
+}
+
+q {
+    font-size: 18px;
+    font-weight: 600;
+    color: #fff;
+}
+
+.profile-block {
+    padding: 30px 30px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.profile-container {
+    transform: translateY(-100px);
+}
+
+.dpbox {
+    width: 150px;
+    height: 150px;
+    overflow: auto;
+    /* background-image: url("../images/bg.jpg"); */
+    background-image: url("https://jswolfphotography.com/wp-content/uploads/2021/02/dual-tone-l.jpg");
+    background-size: 100% 100%;
+    background-position: center;
+    border-radius: 50%;
+    border: 2px solid rgb(255 255 255);
+    margin: 0;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    margin-bottom: 10px;
+}
+
+.desk-header h1 {
+    color: #000000;
+    font-size: 24px;
+    font-weight: 700;
+
+}
+
+.desk-header p {
+    color: #000000ab;
+    font-weight: 500;
+}
